@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margarida.Core.Attributes",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margarida.Core.Attributes.Tests", "Margarida.Core.Attributes.Tests\Margarida.Core.Attributes.Tests.csproj", "{7C2FA835-0DEF-4F11-BDAF-1DC2B8C39535}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{7B05BAA7-2796-40AA-97F9-B9C7D1B21C85}"
+	ProjectSection(SolutionItems) = preProject
+		docs\daisy.png = docs\daisy.png
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
