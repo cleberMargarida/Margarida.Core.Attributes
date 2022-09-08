@@ -19,6 +19,8 @@ PM> Install-Package Margarida.Core.Attributes
 Usage
 ------
 
+DescriptionAttribute
+
 ```csharp
 enum Colors
 {
