@@ -14,7 +14,9 @@ PM> Install-Package Margarida.Core.Attributes
 ```
 
 ## List of attributes
- - [DescriptionAttribute](#descriptionattribute) 
+ - [Description](#descriptionattribute) 
+ - [Scoped, Transient, Singleton](#singleton-transient-scoped-attributes) 
+  
 ## DescriptionAttribute
 A quick way to add description to enums inside .NET Core applications.
 
@@ -33,5 +35,31 @@ string black = Colors.Black.GetDescription(); //<---- "Black"
 string white = Colors.White.GetDescription(); //<---- "White"
 ```
 
+## Singleton Transient Scoped Attributes
+Points to AddMarkedByAttributes extension, Add a scoped, transient or singleton services of the types that marked these attributes.
 
+#### Usage
+```csharp
+[Scoped]
+public class ScopeClass 
+{
+}
 
+[Transient]
+public class TransientClass 
+{
+}
+
+[Singleton]
+public class SingletonClass 
+{
+}
+
+public class Startup
+{
+    public void ConfigureServices()
+    {
+        services.AddMarkedByAttributes(x => x.RegisterFromAssembly(GetType().Assembly));
+    }
+}
+```
