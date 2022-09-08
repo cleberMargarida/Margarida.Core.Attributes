@@ -2,7 +2,7 @@
 
 # Margarida Core Attributes 
 ## Overview
-A collection of shared individual **Attributes** solutions for while development in **.NET Core applications**
+A collection of shared **attributes** for **.NET Core applications**
 
 Installation
 -------------
