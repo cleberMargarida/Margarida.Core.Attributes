@@ -1,6 +1,6 @@
 using FluentAssertions;
+using Margarida.Core.Attributes.Description;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Description = Margarida.Core.Attributes.DescriptionAttribute;
 
 namespace Margarida.Core.Attributes.Tests
 {
@@ -9,9 +9,9 @@ namespace Margarida.Core.Attributes.Tests
     {
         enum some
         {
-            [@Description("val1")]
+            [Description.Description("val1")]
             val1 = 1,
-            [@Description("val2")]
+            [Description.Description("val2")]
             val2 = 2
         }
 

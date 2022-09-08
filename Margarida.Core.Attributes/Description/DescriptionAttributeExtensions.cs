@@ -1,19 +1,8 @@
 ﻿using System;
 using System.Linq;
 
-namespace Margarida.Core.Attributes
+namespace Margarida.Core.Attributes.Description
 {
-    [AttributeUsage(AttributeTargets.Field)]
-    public class DescriptionAttribute : Attribute
-    {
-        public DescriptionAttribute(string description)
-        {
-            Description = description;
-        }
-
-        public string Description { get; }
-    }
-
     public static class DescriptionAttributeExtensions
     {
         public static string GetDescription<T>(this T value)
