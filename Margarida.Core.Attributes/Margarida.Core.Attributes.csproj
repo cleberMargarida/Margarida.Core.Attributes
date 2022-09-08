@@ -4,11 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageLicenseExpression>Apache-1.1</PackageLicenseExpression>
-    <Description>A quick way to add description to enums inside .NET Core applications.</Description>
+    <Description>A collection of shared attributes for .NET Core applications</Description>
     <PackageProjectUrl>A quick way to add description to enums inside .NET Core applications.</PackageProjectUrl>
     <PackageIcon>daisy.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>A quick way to add description to enums inside .NET Core applications.</RepositoryUrl>
+    <RepositoryUrl>https://github.com/cleberMargarida/Margarida.Core.Attributes/</RepositoryUrl>
+    <AssemblyVersion></AssemblyVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
