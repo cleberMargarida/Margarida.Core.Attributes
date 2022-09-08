@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margarida.Core.Attributes", "Margarida.Core.Attributes\Margarida.Core.Attributes.csproj", "{D7BAF2F7-379F-42B1-A37D-839824F39896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margarida.Core.Attributes.Tests", "Margarida.Core.Attributes.Tests\Margarida.Core.Attributes.Tests.csproj", "{7C2FA835-0DEF-4F11-BDAF-1DC2B8C39535}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7BAF2F7-379F-42B1-A37D-839824F39896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7BAF2F7-379F-42B1-A37D-839824F39896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7BAF2F7-379F-42B1-A37D-839824F39896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7BAF2F7-379F-42B1-A37D-839824F39896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2FA835-0DEF-4F11-BDAF-1DC2B8C39535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2FA835-0DEF-4F11-BDAF-1DC2B8C39535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2FA835-0DEF-4F11-BDAF-1DC2B8C39535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2FA835-0DEF-4F11-BDAF-1DC2B8C39535}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C86E8D65-64D5-46E8-AB29-0AA012F67235}
+	EndGlobalSection
+EndGlobal
